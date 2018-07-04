@@ -1,0 +1,22 @@
+.scroll-feedback{
+    position: fixed;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    font-family: lato;
+  }
+  
+  .colored-block{
+    width: 100%;
+    display: block;
+    height: 400px;
+  }
+  
+  .colored-block:nth-child(even){
+    background-color: #9197AE;
+  }
+  
+  .colored-block:nth-child(odd){
+    background-color: #273043;
+  }
